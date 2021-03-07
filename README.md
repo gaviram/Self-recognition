@@ -7,6 +7,7 @@
       o	2 Architectures: Unet and deeplabv3
       
       o	3 Encoders: "Xception", Densenet161", "Resnet101"
+      
   •	Different types of labels: 
     o	Delta = 1 
     o	Delta = 3
