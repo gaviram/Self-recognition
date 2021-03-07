@@ -2,6 +2,7 @@
 
 # Training the network – Train_all.ipynb
 1.	In the beginning of the file define the desired parameters of the model and the training (it is possible to choose a few):
+
   •	The architectures and the encoder of the model you want to train:
   
       o	2 Architectures: Unet and deeplabv3
@@ -9,15 +10,24 @@
       o	3 Encoders: "Xception", Densenet161", "Resnet101"
       
   •	Different types of labels: 
+	
     o	Delta = 1 
+		
     o	Delta = 3
+		
   •	Number of output channels: 
+	
     o	1 
+		
     o	2
   •	Loss function: 
-    o	MSE 
-    o	BCEWithLogits	
+	
+    o	MSE
+		
+    o	BCEWithLogits
+		
   •	Batch size
+	
 2.	Make sure to change path_model and path_graphs in to the where you want the models and the graphs to be saved. The other paths should indicate where the data is located. 
 3.	Run all cells
 
