@@ -3,8 +3,10 @@
 # Training the network – Train_all.ipynb
 1.	In the beginning of the file define the desired parameters of the model and the training (it is possible to choose a few):
   •	The architectures and the encoder of the model you want to train:
-    o	2 Architectures: Unet and deeplabv3
-    o	3 Encoders: "Xception", Densenet161", "Resnet101"
+  
+      o	2 Architectures: Unet and deeplabv3
+      
+      o	3 Encoders: "Xception", Densenet161", "Resnet101"
   •	Different types of labels: 
     o	Delta = 1 
     o	Delta = 3
